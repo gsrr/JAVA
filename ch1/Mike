@@ -1,0 +1,40 @@
+/**
+ * Created by flower on 2015/6/16.
+ */
+public class HelloWorld {
+        static void TheNeme(){
+            System.out.print("Hello Java\t");
+
+        }
+    public static void main(String[] arg){
+        TheNeme(); // 呼叫方法 TheNeme
+        ShowName aa = new ShowName(); //宣告aa為 ShowName類別的 物件
+        aa.TheNeme1();//使用 ShowName類別的 方法 TheNeme
+        ShowName_1 bb = new ShowName_1();//宣告bb為 ShowName_1類別的 物件
+        bb.TheNeme1();//類別ShowName_1 繼承了ShowName 所以可以使用 ShowName的方法
+        bb.TheNeme2();
+
+
+
+    }
+
+}
+
+class ShowName {
+  void TheNeme1(){
+      System.out.print("Hello TheNeme1");
+
+  }
+    void TheNeme2(){
+        System.out.print("Hello son");
+
+    }
+
+
+
+}
+
+class ShowName_1 extends ShowName{
+
+
+}
