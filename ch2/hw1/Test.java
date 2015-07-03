@@ -7,11 +7,13 @@ public class Test
         {                       
                 try
                 {
+                        //declare ArrayList & Array
                         Reader r = new Reader();
                         String line;
                         while((line = r.readLine()) != null)
                         {
                                 System.out.println(line);
+                                // Store data to ArrayList and Array
                         }
                 }
                 catch(IOException e)
