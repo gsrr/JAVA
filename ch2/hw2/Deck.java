@@ -51,7 +51,6 @@ public class Deck
 
   public static int getRandomNumber(int n)
   {
-          Random rand = new Random();
           //...
 
   }
