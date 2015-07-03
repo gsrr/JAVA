@@ -22,11 +22,13 @@ public class Test
                 }
         }
 
-        public static void printArrList()
+        public static void printArrList(//ArrayList)
         {
+                //show Array List
         }
 
-        public static void printArr()
+        public static void printArr(//Array)
         {
+                //show Array
         }
 }
