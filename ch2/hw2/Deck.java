@@ -24,17 +24,17 @@ public class Deck
   **********************************************************/
   public Deck() 
   {
-    ImageIcon card11 = new ImageIcon("aces.jpg");
-    Card aces = new Card(card15, 1, "spade", "Ace");
+    ImageIcon card1 = new ImageIcon("aces.jpg");
+    Card aces = new Card(card1, 1, "spade", "Ace");
 
-    ImageIcon card21 = new ImageIcon("aceh.jpg");
-    Card aceh = new Card(card10, 1, "heart", "Ace");
+    ImageIcon card2 = new ImageIcon("aceh.jpg");
+    Card aceh = new Card(card2, 1, "heart", "Ace");
 
-    ImageIcon card32 = new ImageIcon("aced.jpg");
-    Card aced = new Card(card20, 1,"diamond", "Ace");
+    ImageIcon card3 = new ImageIcon("aced.jpg");
+    Card aced = new Card(card3, 1,"diamond", "Ace");
 
-    ImageIcon card41 = new ImageIcon("acec.jpg");
-    Card acec = new Card(card37, 1,"club", "Ace");
+    ImageIcon card4 = new ImageIcon("acec.jpg");
+    Card acec = new Card(card4, 1,"club", "Ace");
 
   
     deckSet.add(aces);
