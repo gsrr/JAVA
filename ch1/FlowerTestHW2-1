@@ -1,0 +1,63 @@
+import java.io.IOException;
+
+/**
+ * Created by flower on 2015/7/19.
+ */
+import java.io.*;
+import java.util.*;
+
+
+public class Test {
+
+    public static void main(String args[])
+    {
+
+        try
+        {
+
+            Reader r = new Reader();
+            String line;
+            int i=0;
+            int[] array=new int[10];
+            ArrayList list = new ArrayList();
+            
+            while((line = r.readLine()) != null)
+            {
+                array[i]=Integer.parseInt(line);
+                list.add(line);
+                i++;
+
+            }
+            System.out.println("~~~~~~ARRAY~~~~~~~~~~");
+            PrintArr(array);
+            System.out.println("~~~~~ARRAYLIST~~~~~~~~~~~");
+            ArrList(list);
+            
+
+        }
+        catch(IOException e)
+        {
+
+        }
+    }
+
+    public static void PrintArr(int[]array1)
+    {
+
+        for(int a = 0 ; a<10;a++){
+            System.out.println(array1[a]);
+        }
+    }
+
+
+    public static void ArrList(ArrayList list1)
+    {
+
+        for(int a = 0 ; a<10;a++){
+            System.out.println(list1.get(a));
+        }
+    }
+
+
+}
+
