@@ -1,0 +1,11 @@
+The 1 bicycles have been rent!!
+The 2 bicycles have been rent!!
+The 3 bicycles have been rent!!
+The 4 bicycles have been rent!!
+The 5 bicycles have been rent!!
+The 6 bicycles have been rent!!
+The 7 bicycles have been rent!!
+The 8 bicycles have been rent!!
+The 9 bicycles have been rent!!
+The 10 bicycles have been rent!!
+There is no bicycle.
