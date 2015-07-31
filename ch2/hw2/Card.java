@@ -19,17 +19,6 @@ public class Card {
   protected String suit;
 
   /***********************************************************
-     Constructs a card.
-  ***********************************************************/
-  public Card()
-  {
-    cardpic = null;
-    value = 0;
-    suit = null;
-    face = null;
-  }
-
-  /***********************************************************
      Draws the shape.
      @param x the image of the card
      @param val the value of the card
@@ -44,50 +33,7 @@ public class Card {
     suit = s;
   }
 
-  /***********************************************************
-     Returns the image.
-  ***********************************************************/
-  public ImageIcon getimage()
-  {
-    return cardpic;
-  }
 
-  /***********************************************************
-     Returns the value.
-  ***********************************************************/
-  public int getvalue()
-  {
-    return value;
-  }
-
-  /***********************************************************
-     Allows the user to set the value.
-     @param v new value of card
-  ***********************************************************/
-  public void setvalue(int v)
-  {
-    value = v;
-  }
-
-  /***********************************************************
-     Returns the suit
-  ***********************************************************/
-  public String getsuit()
-  {
-    return suit;
-  }
-
-  /***********************************************************
-     Returs the face
-  ***********************************************************/
-  public String getface()
-  {
-    return face;
-  }
-  
-  /***********************************************************
-     Returs a string representing the card
-  ***********************************************************/
   public String toString()
   {
     return "Face: "+ face + " Suit"+ suit +" Value: "+ value;
