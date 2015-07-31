@@ -5,7 +5,7 @@ pblic class Test
                 Deck d = new Deck();
                 for(int i = 0 ; i < 52 ; i++)
                 {
-                        //...
+                        //...print all card
                 }
 
         }
