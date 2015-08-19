@@ -50,20 +50,22 @@ public class Deck {
      returns a single random Card from the deck
      **********************************************************/
 
-    public static int getRandomNumber()
+   public static int getRandomNumber(int size)
     {
-        int i ;
-        Random ran = new Random();
-        i = ran.nextInt(51)+1;
+        int a ;
 
-        return i ;
+        Random ran = new Random();
+        a = ran.nextInt(size)+1;
+
+        return a ;
     }
 
 
     public Card getCard()
     {
-        int n = getRandomNumber();
-        System.out.print(deckSet.get(n)+"\n");
+        int n = getRandomNumber(deckSet.size());
+        deckSet.remove(n);
+
         return deckSet.get(n);
     }
 
